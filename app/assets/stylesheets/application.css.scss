@@ -15,7 +15,7 @@
  */
 
  $white_opaque: rgba(250, 250, 250, .3);
- $dark: #1F7972;
+ $dark: #e8f6c7;
 
 * {
 	box-sizing: border-box;
@@ -26,11 +26,11 @@ html {
 
 body {
  	height: 100%;
-  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  background: -webkit-linear-gradient(40deg, #3198d6 10%, #d84983 100%);
+  background:    -moz-linear-gradient(40deg, #3198d6 10%, #d84983 100%);
+  background:     -ms-linear-gradient(40deg, #3198d6 10%, #d84983 100%);
+  background:      -o-linear-gradient(40deg, #3198d6 10%, #d84983 100%);
+  background:         linear-gradient(40deg, #3198d6 10%, #d84983 100%);
   font-family: 'Lato', sans-serif;
 }
 
@@ -216,8 +216,8 @@ input[type="submit"] {
   position:absolute;
   bottom:0;
   width:100%;
-  height:0.5em;
+  height:0.2em;
   text-align: center;
-  color: #452945;
+  color: $dark;
 }
 ::-webkit-input-placeholder { color: $dark; }
